@@ -3,8 +3,9 @@
 # Viver de Teste 1.ª Temporada
 
 <h1 align="left">
-    <img src=".github/logo.svg" width="250px">
+    <img src=".github/qacademy.svg" width="250px">
 </h1>
+
 
 # Marvel API
 
@@ -12,7 +13,11 @@
 
 ### Cadastro de Personagens
 
-- [ ] Deve poder cadastrar um personagem com as seguintes características:
+- [ ] Deve poder cadastrar um personagem com as características conforme tabela abaixo:
+- [ ] Deve retornar o id do personagem ao realizar o cadastro
+- [ ] Não deve cadastrar personagem com nome duplicado
+- [ ] Com exceção da idade, todos os campos são obrigatórios
+
 | campos | descrição                             | tipo     | obrigatório |
 | ------ | :------------------------------------ | -------- | ----------- |
 | name   | nome do personagem                    | texto    | sim         |
@@ -20,9 +25,6 @@
 | alias  | codinome                              | texto    | sim         |
 | team   | afiliações (vingadores, x-men, etc..) | lista    | sim         |
 | active | se o personagem está ativo ou não     | booleano | sim         |
-- [ ] Deve retornar o id do personagem ao realizar o cadastro
-- [ ] Não deve cadastrar personagem com nome duplicado
-- [ ] Com exceção da idade, todos os campos são obrigatórios
 
 ### Busca de Personagens
 
@@ -62,4 +64,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Feito com 💜 &nbsp;por Fernando Papito 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/papitoio/)
+Feito com 💜 &nbsp;por Fernando Papito 👋 &nbsp;[Meu linkedin](https://www.linkedin.com/in/papitoio/)
