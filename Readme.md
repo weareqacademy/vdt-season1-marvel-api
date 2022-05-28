@@ -3,7 +3,7 @@
 # Viver de Teste 1.ª Temporada
 
 <h1 align="left">
-    <img src=".github/qacademy.svg" width="250px">
+    <img src=".github/logo-stiker.svg" width="250px">
 </h1>
 
 
