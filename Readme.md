@@ -53,7 +53,7 @@
 Execute os comandos abaixo para instalar das dependências do projeto e execução dos testes:
 
 ```sh
-cd marvel-api-cypress-vdt1
+cd vdt-season1-marvel-api
 npm i
 npx cypress run
 ```
