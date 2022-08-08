@@ -4,7 +4,8 @@
   "description": "Projeto de automação na API da Marvel",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run"
+    "back2thepast": "sh ./back2thepast.sh",
+    "test": "npm run back2thepast && npx cypress run"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,8 @@
   "homepage": "https://github.com/AlineAreda/vdt-season1-marvel-api#readme",
   "dependencies": {
     "cypress": "^9.7.0"
+  },
+  "devDependencies": {
+    "@bahmutov/cy-api": "^2.1.3"
   }
 }
