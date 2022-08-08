@@ -1,0 +1,29 @@
+{
+  "name": "vdt-season1-marvel-api",
+  "version": "1.0.0",
+  "description": "Projeto de automação na API da Marvel",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlineAreda/vdt-season1-marvel-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cypress",
+    "testes",
+    "api",
+    "javascript"
+  ],
+  "author": "Aline Areda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlineAreda/vdt-season1-marvel-api/issues"
+  },
+  "homepage": "https://github.com/AlineAreda/vdt-season1-marvel-api#readme",
+  "dependencies": {
+    "cypress": "^9.7.0"
+  }
+}
